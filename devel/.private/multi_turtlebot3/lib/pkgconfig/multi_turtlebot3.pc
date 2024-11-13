@@ -1,0 +1,8 @@
+prefix=/home/lty/xiaoping_ws/devel/.private/multi_turtlebot3
+
+Name: multi_turtlebot3
+Description: Description of multi_turtlebot3
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs tf geometry_msgs nav_msgs

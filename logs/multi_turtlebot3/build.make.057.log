@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target follower[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/follower.dir/src/follower.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/lty/xiaoping_ws/devel/.private/multi_turtlebot3/lib/multi_turtlebot3/follower[0m
+[100%] Built target follower

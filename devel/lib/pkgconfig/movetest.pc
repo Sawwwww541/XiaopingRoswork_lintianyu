@@ -1,0 +1,8 @@
+prefix=/home/lty/xiaoping_ws/devel
+
+Name: movetest
+Description: Description of movetest
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp geometry_msgs

@@ -1,0 +1,8 @@
+prefix=/home/lty/xiaoping_ws/install
+
+Name: connect_tf_tree
+Description: Description of connect_tf_tree
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp tf2 tf2_ros tf2_geometry_msgs geometry_msgs nav_msgs std_msgs

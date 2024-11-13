@@ -1,0 +1,11 @@
+In file included from [01m[K/home/lty/xiaoping_ws/src/multi_turtlebot3/src/follower.cpp:2[m[K:
+[01m[K/home/lty/xiaoping_ws/src/multi_turtlebot3/include/followerhead.h:38:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuffer[m[K’ is not a type
+   38 |   tf2_ros::TransformListener listener([01;31m[Kbuffer[m[K);
+      |                                       [01;31m[K^~~~~~[m[K
+[01m[K/home/lty/xiaoping_ws/src/multi_turtlebot3/include/followerhead.h:42:18:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   42 |   ros::Rate rate([01;31m[K10[m[K);
+      |                  [01;31m[K^~[m[K
+[01m[K/home/lty/xiaoping_ws/src/multi_turtlebot3/include/followerhead.h:42:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+make[2]: *** [CMakeFiles/follower.dir/build.make:63：CMakeFiles/follower.dir/src/follower.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:1675：CMakeFiles/follower.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

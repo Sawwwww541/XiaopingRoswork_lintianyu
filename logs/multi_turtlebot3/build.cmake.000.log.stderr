@@ -1,0 +1,4 @@
+[31m[1mCMake Error[0m at /home/lty/xiaoping_ws/src/multi_turtlebot3/CMakeLists.txt:24 (target_link_directories):
+  target_link_directories called with invalid arguments
+
+

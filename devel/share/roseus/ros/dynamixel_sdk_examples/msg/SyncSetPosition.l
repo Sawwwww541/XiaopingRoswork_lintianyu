@@ -1,0 +1,1 @@
+/home/lty/xiaoping_ws/devel/.private/dynamixel_sdk_examples/share/roseus/ros/dynamixel_sdk_examples/msg/SyncSetPosition.l

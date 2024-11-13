@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/lty/xiaoping_ws/devel/.private/turtlebot3_msgs/setup.sh

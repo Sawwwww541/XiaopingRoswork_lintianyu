@@ -1,0 +1,6 @@
+Warning: Cannot symlink from /home/lty/xiaoping_ws/devel/.private/turtlebot3_navigation/share/turtlebot3_navigation/cmake/turtlebot3_navigationConfig.cmake to existing file /home/lty/xiaoping_ws/devel/share/turtlebot3_navigation/cmake/turtlebot3_navigationConfig.cmake
+Warning: Source hash: ca7fa7cb0b0c92333621597a3e3d159e
+Warning: Dest hash: 5fa3542739b9a6a76221294e106c43af
+Warning: Cannot symlink from /home/lty/xiaoping_ws/devel/.private/turtlebot3_navigation/lib/pkgconfig/turtlebot3_navigation.pc to existing file /home/lty/xiaoping_ws/devel/lib/pkgconfig/turtlebot3_navigation.pc
+Warning: Source hash: 9ef8132995948c765fa072f2ddb24b2e
+Warning: Dest hash: b48b83def19efea6170abb7e262e6444

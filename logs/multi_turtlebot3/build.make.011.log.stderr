@@ -1,0 +1,38 @@
+In file included from [01m[K/home/lty/xiaoping_ws/src/multi_turtlebot3/src/follower.cpp:2[m[K:
+[01m[K/home/lty/xiaoping_ws/src/multi_turtlebot3/include/followerhead.h:[m[K In member function ‘[01m[Kvoid Follower::run()[m[K’:
+[01m[K/home/lty/xiaoping_ws/src/multi_turtlebot3/include/followerhead.h:26:88:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf::TransformListener::lookupTransform(std::string&, std::string&, ros::Time, tf::Transform&)[m[K’
+   26 |           listener_->lookupTransform(follower_frame,leader_frame,ros::Time(0),transform[01;31m[K)[m[K ;
+      |                                                                                        [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/tf/transform_listener.h:38[m[K,
+                 from [01m[K/home/lty/xiaoping_ws/src/multi_turtlebot3/include/followerhead.h:4[m[K,
+                 from [01m[K/home/lty/xiaoping_ws/src/multi_turtlebot3/src/follower.cpp:2[m[K:
+[01m[K/opt/ros/noetic/include/tf/tf.h:142:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid tf::Transformer::lookupTransform(const string&, const string&, const ros::Time&, tf::StampedTransform&) const[m[K’
+  142 |   void [01;36m[KlookupTransform[m[K(const std::string& target_frame, const std::string& source_frame,
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf/tf.h:143:65:[m[K [01;36m[Knote: [m[K  no known conversion for argument 4 from ‘[01m[Ktf::Transform[m[K’ to ‘[01m[Ktf::StampedTransform&[m[K’
+  143 |                        const ros::Time& time, [01;36m[KStampedTransform& transform[m[K) const;
+      |                                               [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf/tf.h:155:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid tf::Transformer::lookupTransform(const string&, const ros::Time&, const string&, const ros::Time&, const string&, tf::StampedTransform&) const[m[K’
+  155 |   void [01;36m[KlookupTransform[m[K(const std::string& target_frame, const ros::Time& target_time,
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf/tf.h:155:8:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 4 provided
+In file included from [01m[K/home/lty/xiaoping_ws/src/multi_turtlebot3/src/follower.cpp:2[m[K:
+[01m[K/home/lty/xiaoping_ws/src/multi_turtlebot3/include/followerhead.h:34:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf::TransformListener::lookupTransform(const char [5], std::string&, ros::Time, tf::Transform&)[m[K’
+   34 |           listener_->lookupTransform("/map",leader_frame,ros::Time(0),transform[01;31m[K)[m[K;
+      |                                                                                [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/tf/transform_listener.h:38[m[K,
+                 from [01m[K/home/lty/xiaoping_ws/src/multi_turtlebot3/include/followerhead.h:4[m[K,
+                 from [01m[K/home/lty/xiaoping_ws/src/multi_turtlebot3/src/follower.cpp:2[m[K:
+[01m[K/opt/ros/noetic/include/tf/tf.h:142:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid tf::Transformer::lookupTransform(const string&, const string&, const ros::Time&, tf::StampedTransform&) const[m[K’
+  142 |   void [01;36m[KlookupTransform[m[K(const std::string& target_frame, const std::string& source_frame,
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf/tf.h:143:65:[m[K [01;36m[Knote: [m[K  no known conversion for argument 4 from ‘[01m[Ktf::Transform[m[K’ to ‘[01m[Ktf::StampedTransform&[m[K’
+  143 |                        const ros::Time& time, [01;36m[KStampedTransform& transform[m[K) const;
+      |                                               [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf/tf.h:155:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid tf::Transformer::lookupTransform(const string&, const ros::Time&, const string&, const ros::Time&, const string&, tf::StampedTransform&) const[m[K’
+  155 |   void [01;36m[KlookupTransform[m[K(const std::string& target_frame, const ros::Time& target_time,
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/tf/tf.h:155:8:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 4 provided
+make[2]: *** [CMakeFiles/follower.dir/build.make:63：CMakeFiles/follower.dir/src/follower.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:1675：CMakeFiles/follower.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

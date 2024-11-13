@@ -12,7 +12,8 @@ find_package(catkin REQUIRED COMPONENTS
             geometry_msgs
             rospy
             std_msgs
-            gazebo_ros)
+            gazebo_ros
+            sensor_msgs)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -117,7 +118,7 @@ CATKIN_DEPENDS
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-# include
+    include
 ${catkin_INCLUDE_DIRS}
 )
 
@@ -207,3 +208,6 @@ ${catkin_INCLUDE_DIRS}
 # catkin_add_nosetests(test)
 add_executable(Post_cmd_vel src/Post_cmd_vel.cpp)
 target_link_libraries(Post_cmd_vel ${catkin_LIBRARIES})
+target_include_directories(Post_cmd_vel PRIVATE
+    ${catkin_INCLUDE_DIRS}
+    ${CMAKE_SOURCE_DIR}/include)

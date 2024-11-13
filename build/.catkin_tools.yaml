@@ -1,0 +1,6 @@
+devel_space: /home/lty/xiaoping_ws/devel
+install: false
+install_space: /home/lty/xiaoping_ws/install
+profile: default
+source_space: /home/lty/xiaoping_ws/src
+workspace: /home/lty/xiaoping_ws
