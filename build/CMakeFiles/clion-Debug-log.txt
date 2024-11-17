@@ -20,8 +20,8 @@ CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Using CATKIN_DEVEL_PREFIX: /home/lty/xiaoping_ws/devel
--- Using CMAKE_PREFIX_PATH: /home/lty/lty_ws/devel;/opt/ros/noetic
--- This workspace overlays: /home/lty/lty_ws/devel;/opt/ros/noetic
+-- Using CMAKE_PREFIX_PATH: /home/lty/xiaoping_ws/devel;/home/lty/lty_ws/devel;/opt/ros/noetic
+-- This workspace overlays: /home/lty/xiaoping_ws/devel;/home/lty/lty_ws/devel;/opt/ros/noetic
 CMake Warning (dev) at /opt/ros/noetic/share/catkin/cmake/python.cmake:4 (find_package):
   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
@@ -84,7 +84,8 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 -- BUILD_SHARED_LIBS is on
 -- BUILD_SHARED_LIBS is on
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--- ~~  traversing 14 packages in topological order:
+-- ~~  traversing 17 packages in topological order:
+-- ~~  - teleop_twist_keyboard
 -- ~~  - turtlebot3 (metapackage)
 -- ~~  - turtlebot3_msgs
 -- ~~  - turtlebot3_navigation
@@ -92,6 +93,8 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 -- ~~  - dynamixel_sdk
 -- ~~  - dynamixel_sdk_examples
 -- ~~  - movetest
+-- ~~  - multi_turtlebot3
+-- ~~  - connect_tf_tree
 -- ~~  - turtlebot3_bringup
 -- ~~  - turtlebot3_example
 -- ~~  - turtlebot3_fake
@@ -100,6 +103,17 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 -- ~~  - turtlebot3_teleop
 -- ~~  - turtlebot3_description
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'teleop_twist_keyboard'
+-- ==> add_subdirectory(teleop_twist_keyboard-master)
+CMake Deprecation Warning at teleop_twist_keyboard-master/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Installing devel-space wrapper /home/lty/xiaoping_ws/src/teleop_twist_keyboard-master/teleop_twist_keyboard.py to /home/lty/xiaoping_ws/devel/lib/teleop_twist_keyboard
 -- +++ processing catkin metapackage: 'turtlebot3'
 -- ==> add_subdirectory(turtlebot3-master/turtlebot3)
 CMake Deprecation Warning at turtlebot3-master/turtlebot3/CMakeLists.txt:1 (cmake_minimum_required):
@@ -176,6 +190,28 @@ CMake Deprecation Warning at DynamixelSDK-master/ros/dynamixel_sdk_examples/CMak
 -- +++ processing catkin package: 'movetest'
 -- ==> add_subdirectory(movetest)
 CMake Deprecation Warning at movetest/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'multi_turtlebot3'
+-- ==> add_subdirectory(multi_turtlebot3)
+CMake Deprecation Warning at multi_turtlebot3/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'connect_tf_tree'
+-- ==> add_subdirectory(connect_tf_tree)
+CMake Deprecation Warning at connect_tf_tree/CMakeLists.txt:1 (cmake_minimum_required):
   Compatibility with CMake < 3.5 will be removed from a future version of
   CMake.
 
@@ -351,6 +387,6 @@ CMake Deprecation Warning at turtlebot3-master/turtlebot3_description/CMakeLists
   CMake that the project does not need compatibility with older versions.
 
 
--- Configuring done (5.6s)
+-- Configuring done (7.1s)
 -- Generating done (0.1s)
 -- Build files have been written to: /home/lty/xiaoping_ws/build

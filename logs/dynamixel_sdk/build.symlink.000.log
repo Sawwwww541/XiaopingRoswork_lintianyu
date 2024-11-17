@@ -1,0 +1,7 @@
+Warning: Cannot symlink from /home/lty/xiaoping_ws/devel/.private/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake to existing file /home/lty/xiaoping_ws/devel/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+Warning: Source hash: e2e2c1bae93f7d23315a22b46a3c85a6
+Warning: Dest hash: 75c7718fe1c35eddd83f5b940ea7f2f7
+Symlinking /home/lty/xiaoping_ws/devel/lib/libdynamixel_sdk.so
+Warning: Cannot symlink from /home/lty/xiaoping_ws/devel/.private/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc to existing file /home/lty/xiaoping_ws/devel/lib/pkgconfig/dynamixel_sdk.pc
+Warning: Source hash: e6eb36f92b4bfc3b968b881e1b166e77
+Warning: Dest hash: 75809a89a38fcd9d2d9198fbf2b3e374

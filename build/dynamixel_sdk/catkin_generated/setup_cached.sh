@@ -10,6 +10,6 @@
 export CMAKE_PREFIX_PATH="/home/lty/xiaoping_ws/devel/.private/dynamixel_sdk:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/lty/xiaoping_ws/devel/.private/dynamixel_sdk/lib:$LD_LIBRARY_PATH"
 export PWD='/home/lty/xiaoping_ws/build/dynamixel_sdk'
-export PYTHONPATH="/home/lty/xiaoping_ws/devel/.private/dynamixel_sdk/lib/python3/dist-packages:$PYTHONPATH"
+export PYTHONPATH="/home/lty/xiaoping_ws/devel/.private/dynamixel_sdk/lib/python3/dist-packages:/home/lty/xiaoping_ws/devel/lib/python3/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/lty/xiaoping_ws/devel/.private/dynamixel_sdk/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/lty/xiaoping_ws/src/DynamixelSDK-master/ros/dynamixel_sdk:$ROS_PACKAGE_PATH"

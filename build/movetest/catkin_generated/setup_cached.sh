@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/lty/xiaoping_ws/devel/.private/movetest:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/lty/xiaoping_ws/devel/.private/movetest/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/lty/xiaoping_ws/devel/.private/movetest/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/lty/xiaoping_ws/build/movetest'
 export ROSLISP_PACKAGE_DIRECTORIES="/home/lty/xiaoping_ws/devel/.private/movetest/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/lty/xiaoping_ws/src/movetest:$ROS_PACKAGE_PATH"

@@ -32,6 +32,8 @@ int main(int argc, char **argv){
   ros::init(argc, argv, "connect_tf_tree");
   ros::NodeHandle n;
 
+  botname=argv[1];
+
 	ros::Subscriber sub=n.subscribe(botname+"/odom",1000,OdomCallback);
 
   ros::spin();

@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target Post_cmd_vel[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/Post_cmd_vel.dir/src/Post_cmd_vel.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/lty/xiaoping_ws/devel/.private/movetest/lib/movetest/Post_cmd_vel[0m
+[100%] Built target Post_cmd_vel

@@ -1,0 +1,62 @@
+Symlinking /home/lty/xiaoping_ws/devel/include/dynamixel_sdk_examples/SyncGetPositionResponse.h
+Symlinking /home/lty/xiaoping_ws/devel/include/dynamixel_sdk_examples/GetPositionRequest.h
+Symlinking /home/lty/xiaoping_ws/devel/include/dynamixel_sdk_examples/BulkSetItem.h
+Symlinking /home/lty/xiaoping_ws/devel/include/dynamixel_sdk_examples/SyncGetPositionRequest.h
+Symlinking /home/lty/xiaoping_ws/devel/include/dynamixel_sdk_examples/SyncSetPosition.h
+Symlinking /home/lty/xiaoping_ws/devel/include/dynamixel_sdk_examples/BulkGetItem.h
+Symlinking /home/lty/xiaoping_ws/devel/include/dynamixel_sdk_examples/SetPosition.h
+Symlinking /home/lty/xiaoping_ws/devel/include/dynamixel_sdk_examples/SyncGetPosition.h
+Symlinking /home/lty/xiaoping_ws/devel/include/dynamixel_sdk_examples/BulkGetItemResponse.h
+Symlinking /home/lty/xiaoping_ws/devel/include/dynamixel_sdk_examples/GetPosition.h
+Symlinking /home/lty/xiaoping_ws/devel/include/dynamixel_sdk_examples/BulkGetItemRequest.h
+Symlinking /home/lty/xiaoping_ws/devel/include/dynamixel_sdk_examples/GetPositionResponse.h
+Warning: Cannot symlink from /home/lty/xiaoping_ws/devel/.private/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake to existing file /home/lty/xiaoping_ws/devel/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+Warning: Source hash: 342deba687a8f46ae2e058b54bb0261d
+Warning: Dest hash: 33f351636aa9dc43863ee047eb695809
+Symlinking /home/lty/xiaoping_ws/devel/share/gennodejs/ros/dynamixel_sdk_examples/_index.js
+Symlinking /home/lty/xiaoping_ws/devel/share/gennodejs/ros/dynamixel_sdk_examples/srv/_index.js
+Symlinking /home/lty/xiaoping_ws/devel/share/gennodejs/ros/dynamixel_sdk_examples/srv/SyncGetPosition.js
+Symlinking /home/lty/xiaoping_ws/devel/share/gennodejs/ros/dynamixel_sdk_examples/srv/BulkGetItem.js
+Symlinking /home/lty/xiaoping_ws/devel/share/gennodejs/ros/dynamixel_sdk_examples/srv/GetPosition.js
+Symlinking /home/lty/xiaoping_ws/devel/share/gennodejs/ros/dynamixel_sdk_examples/msg/_index.js
+Symlinking /home/lty/xiaoping_ws/devel/share/gennodejs/ros/dynamixel_sdk_examples/msg/SyncSetPosition.js
+Symlinking /home/lty/xiaoping_ws/devel/share/gennodejs/ros/dynamixel_sdk_examples/msg/BulkSetItem.js
+Symlinking /home/lty/xiaoping_ws/devel/share/gennodejs/ros/dynamixel_sdk_examples/msg/SetPosition.js
+Symlinking /home/lty/xiaoping_ws/devel/share/common-lisp/ros/dynamixel_sdk_examples/srv/_package.lisp
+Symlinking /home/lty/xiaoping_ws/devel/share/common-lisp/ros/dynamixel_sdk_examples/srv/dynamixel_sdk_examples-srv.asd
+Symlinking /home/lty/xiaoping_ws/devel/share/common-lisp/ros/dynamixel_sdk_examples/srv/_package_BulkGetItem.lisp
+Symlinking /home/lty/xiaoping_ws/devel/share/common-lisp/ros/dynamixel_sdk_examples/srv/BulkGetItem.lisp
+Symlinking /home/lty/xiaoping_ws/devel/share/common-lisp/ros/dynamixel_sdk_examples/srv/_package_SyncGetPosition.lisp
+Symlinking /home/lty/xiaoping_ws/devel/share/common-lisp/ros/dynamixel_sdk_examples/srv/_package_GetPosition.lisp
+Symlinking /home/lty/xiaoping_ws/devel/share/common-lisp/ros/dynamixel_sdk_examples/srv/GetPosition.lisp
+Symlinking /home/lty/xiaoping_ws/devel/share/common-lisp/ros/dynamixel_sdk_examples/srv/SyncGetPosition.lisp
+Symlinking /home/lty/xiaoping_ws/devel/share/common-lisp/ros/dynamixel_sdk_examples/msg/_package_SyncSetPosition.lisp
+Symlinking /home/lty/xiaoping_ws/devel/share/common-lisp/ros/dynamixel_sdk_examples/msg/_package.lisp
+Symlinking /home/lty/xiaoping_ws/devel/share/common-lisp/ros/dynamixel_sdk_examples/msg/BulkSetItem.lisp
+Symlinking /home/lty/xiaoping_ws/devel/share/common-lisp/ros/dynamixel_sdk_examples/msg/dynamixel_sdk_examples-msg.asd
+Symlinking /home/lty/xiaoping_ws/devel/share/common-lisp/ros/dynamixel_sdk_examples/msg/SyncSetPosition.lisp
+Symlinking /home/lty/xiaoping_ws/devel/share/common-lisp/ros/dynamixel_sdk_examples/msg/_package_SetPosition.lisp
+Symlinking /home/lty/xiaoping_ws/devel/share/common-lisp/ros/dynamixel_sdk_examples/msg/_package_BulkSetItem.lisp
+Symlinking /home/lty/xiaoping_ws/devel/share/common-lisp/ros/dynamixel_sdk_examples/msg/SetPosition.lisp
+Symlinking /home/lty/xiaoping_ws/devel/share/roseus/ros/dynamixel_sdk_examples/manifest.l
+Symlinking /home/lty/xiaoping_ws/devel/share/roseus/ros/dynamixel_sdk_examples/srv/SyncGetPosition.l
+Symlinking /home/lty/xiaoping_ws/devel/share/roseus/ros/dynamixel_sdk_examples/srv/BulkGetItem.l
+Symlinking /home/lty/xiaoping_ws/devel/share/roseus/ros/dynamixel_sdk_examples/srv/GetPosition.l
+Symlinking /home/lty/xiaoping_ws/devel/share/roseus/ros/dynamixel_sdk_examples/msg/SetPosition.l
+Symlinking /home/lty/xiaoping_ws/devel/share/roseus/ros/dynamixel_sdk_examples/msg/BulkSetItem.l
+Symlinking /home/lty/xiaoping_ws/devel/share/roseus/ros/dynamixel_sdk_examples/msg/SyncSetPosition.l
+Symlinking /home/lty/xiaoping_ws/devel/lib/dynamixel_sdk_examples/sync_read_write_node
+Symlinking /home/lty/xiaoping_ws/devel/lib/dynamixel_sdk_examples/indirect_address_node
+Symlinking /home/lty/xiaoping_ws/devel/lib/dynamixel_sdk_examples/read_write_node
+Symlinking /home/lty/xiaoping_ws/devel/lib/dynamixel_sdk_examples/bulk_read_write_node
+Symlinking /home/lty/xiaoping_ws/devel/lib/python3/dist-packages/dynamixel_sdk_examples/srv/__init__.py
+Symlinking /home/lty/xiaoping_ws/devel/lib/python3/dist-packages/dynamixel_sdk_examples/srv/_BulkGetItem.py
+Symlinking /home/lty/xiaoping_ws/devel/lib/python3/dist-packages/dynamixel_sdk_examples/srv/_SyncGetPosition.py
+Symlinking /home/lty/xiaoping_ws/devel/lib/python3/dist-packages/dynamixel_sdk_examples/srv/_GetPosition.py
+Symlinking /home/lty/xiaoping_ws/devel/lib/python3/dist-packages/dynamixel_sdk_examples/msg/__init__.py
+Symlinking /home/lty/xiaoping_ws/devel/lib/python3/dist-packages/dynamixel_sdk_examples/msg/_BulkSetItem.py
+Symlinking /home/lty/xiaoping_ws/devel/lib/python3/dist-packages/dynamixel_sdk_examples/msg/_SetPosition.py
+Symlinking /home/lty/xiaoping_ws/devel/lib/python3/dist-packages/dynamixel_sdk_examples/msg/_SyncSetPosition.py
+Warning: Cannot symlink from /home/lty/xiaoping_ws/devel/.private/dynamixel_sdk_examples/lib/pkgconfig/dynamixel_sdk_examples.pc to existing file /home/lty/xiaoping_ws/devel/lib/pkgconfig/dynamixel_sdk_examples.pc
+Warning: Source hash: 3d456f2413376eac306c263bd3604b69
+Warning: Dest hash: 8e310ea3861f91241cc6d3b4fa65177e

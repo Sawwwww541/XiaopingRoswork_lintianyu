@@ -46,7 +46,7 @@
   </group>
 
   <node name="follower" pkg="multi_turtlebot3" type="follower" output="screen"/>
-   <node name="connect_tf_tree_3_0" pkg="connect_tf_tree" type="connect_tf_tree" output="screen"/>
-   <node name="connect_tf_tree_3_1" pkg="connect_tf_tree_2" type="connect_tf_tree_2" output="screen"/>
+   <node name="connect_tf_tree_3_0" pkg="connect_tf_tree" type="connect_tf_tree" args="tb3_0" output="screen"/>
+   <node name="connect_tf_tree_3_1" pkg="connect_tf_tree" type="connect_tf_tree" args="tb3_1" output="screen"/>
 
 </launch>

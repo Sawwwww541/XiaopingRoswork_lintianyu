@@ -9,5 +9,6 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/lty/xiaoping_ws/devel/.private/turtlebot3_msgs:$CMAKE_PREFIX_PATH"
 export PWD='/home/lty/xiaoping_ws/build/turtlebot3_msgs'
+export PYTHONPATH="/home/lty/xiaoping_ws/devel/lib/python3/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/lty/xiaoping_ws/devel/.private/turtlebot3_msgs/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/lty/xiaoping_ws/src/turtlebot3_msgs-master:$ROS_PACKAGE_PATH"

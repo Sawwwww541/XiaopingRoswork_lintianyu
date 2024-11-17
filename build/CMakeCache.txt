@@ -815,6 +815,15 @@ ccd_DIR:PATH=ccd_DIR-NOTFOUND
 //The directory containing a CMake configuration file for class_loader.
 class_loader_DIR:PATH=/opt/ros/noetic/share/class_loader/cmake
 
+//Value Computed by CMake
+connect_tf_tree_BINARY_DIR:STATIC=/home/lty/xiaoping_ws/build/connect_tf_tree
+
+//Value Computed by CMake
+connect_tf_tree_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+connect_tf_tree_SOURCE_DIR:STATIC=/home/lty/xiaoping_ws/src/connect_tf_tree
+
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/noetic/share/cpp_common/cmake
 
@@ -984,6 +993,15 @@ movetest_IS_TOP_LEVEL:STATIC=OFF
 //Value Computed by CMake
 movetest_SOURCE_DIR:STATIC=/home/lty/xiaoping_ws/src/movetest
 
+//Value Computed by CMake
+multi_turtlebot3_BINARY_DIR:STATIC=/home/lty/xiaoping_ws/build/multi_turtlebot3
+
+//Value Computed by CMake
+multi_turtlebot3_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+multi_turtlebot3_SOURCE_DIR:STATIC=/home/lty/xiaoping_ws/src/multi_turtlebot3
+
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/noetic/share/nav_msgs/cmake
 
@@ -1092,8 +1110,20 @@ std_msgs_DIR:PATH=/opt/ros/noetic/share/std_msgs/cmake
 //The directory containing a CMake configuration file for std_srvs.
 std_srvs_DIR:PATH=/opt/ros/noetic/share/std_srvs/cmake
 
+//Value Computed by CMake
+teleop_twist_keyboard_BINARY_DIR:STATIC=/home/lty/xiaoping_ws/build/teleop_twist_keyboard-master
+
+//Value Computed by CMake
+teleop_twist_keyboard_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+teleop_twist_keyboard_SOURCE_DIR:STATIC=/home/lty/xiaoping_ws/src/teleop_twist_keyboard-master
+
 //The directory containing a CMake configuration file for tf2.
 tf2_DIR:PATH=/opt/ros/noetic/share/tf2/cmake
+
+//The directory containing a CMake configuration file for tf2_geometry_msgs.
+tf2_geometry_msgs_DIR:PATH=/opt/ros/noetic/share/tf2_geometry_msgs/cmake
 
 //The directory containing a CMake configuration file for tf2_msgs.
 tf2_msgs_DIR:PATH=/opt/ros/noetic/share/tf2_msgs/cmake
@@ -1406,7 +1436,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=18
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=21
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -1,4 +1,4 @@
-prefix=/home/lty/xiaoping_ws/devel/.private/turtlebot3_teleop
+prefix=/home/lty/xiaoping_ws/devel
 
 Name: turtlebot3_teleop
 Description: Description of turtlebot3_teleop

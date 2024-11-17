@@ -1,6 +1,0 @@
-[31m[1mCMake Error[0m at /home/lty/xiaoping_ws/src/multi_turtlebot3/CMakeLists.txt:28 (target_include_directories):
-  Cannot specify include directories for target "/opt/ros/noetic/include"
-  which is not built by this project.
-
-
-make: *** [Makefile:1064：cmake_check_build_system] 错误 1

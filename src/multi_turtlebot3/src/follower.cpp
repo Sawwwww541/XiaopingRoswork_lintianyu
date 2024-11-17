@@ -25,7 +25,7 @@ int main(int argc, char **argv){
             stop.linear.x=0;
             stop.angular.z=0;
 
-            if(fabs(tfs.transform.translation.x)+fabs(tfs.transform.translation.y)>1) pub.publish(twist);
+            if(fabs(tfs.transform.translation.x)+fabs(tfs.transform.translation.y)>0.5) pub.publish(twist);
 
             else pub.publish(stop);
         }
