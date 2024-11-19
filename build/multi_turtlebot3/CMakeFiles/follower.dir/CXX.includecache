@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/lty/xiaoping_ws/src/multi_turtlebot3/src/follower.cpp
+/home/lty/xiaoping_ws/src/multi_turtlebot3/include/follower.h
 ros/ros.h
 -
 geometry_msgs/Twist.h
@@ -15,6 +15,10 @@ geometry_msgs/TransformStamped.h
 -
 tf2_ros/transform_listener.h
 -
+
+/home/lty/xiaoping_ws/src/multi_turtlebot3/src/follower.cpp
+follower.h
+/home/lty/xiaoping_ws/src/multi_turtlebot3/src/follower.h
 
 /opt/ros/noetic/include/geometry_msgs/Quaternion.h
 string

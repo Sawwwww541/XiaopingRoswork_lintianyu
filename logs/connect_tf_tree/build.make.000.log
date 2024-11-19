@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target connect_tf_tree[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/connect_tf_tree.dir/src/connection.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/lty/xiaoping_ws/devel/.private/connect_tf_tree/lib/connect_tf_tree/connect_tf_tree[0m
-[100%] Built target connect_tf_tree

@@ -1,0 +1,1 @@
+/home/lty/xiaoping_ws/devel/.private/pointpub/lib/pkgconfig/pointpub.pc

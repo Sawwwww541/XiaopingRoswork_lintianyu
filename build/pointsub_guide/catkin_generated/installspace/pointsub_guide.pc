@@ -1,0 +1,8 @@
+prefix=/home/lty/xiaoping_ws/install
+
+Name: pointsub_guide
+Description: Description of pointsub_guide
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs nav_msgs roscpp tf2_ros

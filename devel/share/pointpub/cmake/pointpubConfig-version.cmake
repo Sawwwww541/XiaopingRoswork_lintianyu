@@ -1,0 +1,1 @@
+/home/lty/xiaoping_ws/devel/.private/pointpub/share/pointpub/cmake/pointpubConfig-version.cmake

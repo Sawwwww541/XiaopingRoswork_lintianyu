@@ -1,0 +1,8 @@
+prefix=/home/lty/xiaoping_ws/devel/.private/pointpub
+
+Name: pointpub
+Description: Description of pointpub
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
