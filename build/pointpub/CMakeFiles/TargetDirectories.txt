@@ -32,6 +32,7 @@
 /home/lty/xiaoping_ws/build/pointpub/CMakeFiles/actionlib_msgs_generate_messages_eus.dir
 /home/lty/xiaoping_ws/build/pointpub/CMakeFiles/download_extra_data.dir
 /home/lty/xiaoping_ws/build/pointpub/CMakeFiles/nav_msgs_generate_messages_nodejs.dir
+/home/lty/xiaoping_ws/build/pointpub/CMakeFiles/pointpub.dir
 /home/lty/xiaoping_ws/build/pointpub/CMakeFiles/std_msgs_generate_messages_py.dir
 /home/lty/xiaoping_ws/build/pointpub/CMakeFiles/nav_msgs_generate_messages_eus.dir
 /home/lty/xiaoping_ws/build/pointpub/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir

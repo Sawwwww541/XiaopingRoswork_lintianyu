@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "/home/lty/xiaoping_ws/devel/.private/pointsub_guide/lib/pointsub_guide/pointsub_guide"
   "/home/lty/xiaoping_ws/devel/.private/pointsub_guide/lib/pointsub_guide/pointsub_guide.pdb"
-  "CMakeFiles/pointsub_guide.dir/src/sub_guide.cpp.o"
+  "CMakeFiles/pointsub_guide.dir/src/pointsub_guide.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -185,7 +185,7 @@ foreach(t ${pointsub_guide_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "geometry_msgs;nav_msgs;roscpp;tf2_ros")
+set(depends "geometry_msgs;nav_msgs;roscpp;tf2;std_msgs;tf2_ros;tf2_geometry_msgs")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls

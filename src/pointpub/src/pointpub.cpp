@@ -42,4 +42,5 @@ int main(int argc, char **argv){
   PointPub pub;
   pub.run();
 
+  return 0;
 }

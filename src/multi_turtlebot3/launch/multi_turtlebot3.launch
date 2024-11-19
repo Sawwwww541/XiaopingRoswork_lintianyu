@@ -45,8 +45,7 @@
     <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-urdf -model $(arg second_tb3) -x $(arg second_tb3_x_pos) -y $(arg second_tb3_y_pos) -z $(arg second_tb3_z_pos) -Y $(arg second_tb3_yaw) -param robot_description" />
   </group>
 
-    <node name="pointpub_node" pkg="pointpub" type="pointpub" output="screen"/>
-    <node name="pointsub_guide_node" pkg="pointsub_guide" type="pointsub_guide" output="screen"/>
+    <node name="follower" pkg="multi_turtlebot3" type="follower" output="screen"/>
    <node name="connect_tf_tree_3_0" pkg="connect_tf_tree" type="connect_tf_tree" args="tb3_0" output="screen"/>
    <node name="connect_tf_tree_3_1" pkg="connect_tf_tree" type="connect_tf_tree" args="tb3_1" output="screen"/>
 

@@ -3,9 +3,9 @@
 /home/lty/xiaoping_ws/build/pointsub_guide/CMakeFiles/list_install_components.dir
 /home/lty/xiaoping_ws/build/pointsub_guide/CMakeFiles/edit_cache.dir
 /home/lty/xiaoping_ws/build/pointsub_guide/CMakeFiles/pointsub_guide.dir
+/home/lty/xiaoping_ws/build/pointsub_guide/CMakeFiles/actionlib_generate_messages_nodejs.dir
 /home/lty/xiaoping_ws/build/pointsub_guide/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir
 /home/lty/xiaoping_ws/build/pointsub_guide/CMakeFiles/tf2_msgs_generate_messages_lisp.dir
-/home/lty/xiaoping_ws/build/pointsub_guide/CMakeFiles/actionlib_generate_messages_nodejs.dir
 /home/lty/xiaoping_ws/build/pointsub_guide/CMakeFiles/test.dir
 /home/lty/xiaoping_ws/build/pointsub_guide/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
 /home/lty/xiaoping_ws/build/pointsub_guide/CMakeFiles/roscpp_generate_messages_py.dir

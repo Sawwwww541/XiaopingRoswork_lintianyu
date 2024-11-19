@@ -5,4 +5,4 @@ Description: Description of pointsub_guide
 Version: 0.0.0
 Cflags: 
 Libs: -L${prefix}/lib 
-Requires: geometry_msgs nav_msgs roscpp tf2_ros
+Requires: geometry_msgs nav_msgs roscpp tf2 std_msgs tf2_ros tf2_geometry_msgs

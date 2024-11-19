@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/lty/xiaoping_ws/src/pointsub_guide/src/sub_guide.cpp
+/home/lty/xiaoping_ws/src/pointsub_guide/src/pointsub_guide.cpp
 ros/ros.h
 -
 nav_msgs/Path.h

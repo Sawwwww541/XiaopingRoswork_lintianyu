@@ -532,6 +532,19 @@ nav_msgs_generate_messages_nodejs/fast:
 .PHONY : nav_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
+# Target rules for targets named pointpub
+
+# Build rule for target.
+pointpub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pointpub
+.PHONY : pointpub
+
+# fast build rule for target.
+pointpub/fast:
+	$(MAKE) -f CMakeFiles/pointpub.dir/build.make CMakeFiles/pointpub.dir/build
+.PHONY : pointpub/fast
+
+#=============================================================================
 # Target rules for targets named std_msgs_generate_messages_py
 
 # Build rule for target.
@@ -674,6 +687,33 @@ gtest/fast:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
+src/pointpub.o: src/pointpub.cpp.o
+
+.PHONY : src/pointpub.o
+
+# target to build an object file
+src/pointpub.cpp.o:
+	$(MAKE) -f CMakeFiles/pointpub.dir/build.make CMakeFiles/pointpub.dir/src/pointpub.cpp.o
+.PHONY : src/pointpub.cpp.o
+
+src/pointpub.i: src/pointpub.cpp.i
+
+.PHONY : src/pointpub.i
+
+# target to preprocess a source file
+src/pointpub.cpp.i:
+	$(MAKE) -f CMakeFiles/pointpub.dir/build.make CMakeFiles/pointpub.dir/src/pointpub.cpp.i
+.PHONY : src/pointpub.cpp.i
+
+src/pointpub.s: src/pointpub.cpp.s
+
+.PHONY : src/pointpub.s
+
+# target to generate assembly for a file
+src/pointpub.cpp.s:
+	$(MAKE) -f CMakeFiles/pointpub.dir/build.make CMakeFiles/pointpub.dir/src/pointpub.cpp.s
+.PHONY : src/pointpub.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -714,6 +754,7 @@ help:
 	@echo "... actionlib_msgs_generate_messages_eus"
 	@echo "... download_extra_data"
 	@echo "... nav_msgs_generate_messages_nodejs"
+	@echo "... pointpub"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... nav_msgs_generate_messages_eus"
 	@echo "... actionlib_msgs_generate_messages_lisp"
@@ -726,6 +767,9 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... src/pointpub.o"
+	@echo "... src/pointpub.i"
+	@echo "... src/pointpub.s"
 .PHONY : help
 
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lty/xiaoping_ws/src/pointsub_guide/src/sub_guide.cpp" "/home/lty/xiaoping_ws/build/pointsub_guide/CMakeFiles/pointsub_guide.dir/src/sub_guide.cpp.o"
+  "/home/lty/xiaoping_ws/src/pointsub_guide/src/pointsub_guide.cpp" "/home/lty/xiaoping_ws/build/pointsub_guide/CMakeFiles/pointsub_guide.dir/src/pointsub_guide.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -20,6 +20,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/lty/xiaoping_ws/src/pointsub_guide/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/usr/include/eigen3"
   )
 
 # Targets to which this target links.

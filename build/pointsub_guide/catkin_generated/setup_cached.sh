@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/lty/xiaoping_ws/devel/.private/pointsub_guide:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/lty/xiaoping_ws/devel/.private/pointsub_guide/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/lty/xiaoping_ws/devel/.private/pointsub_guide/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/lty/xiaoping_ws/build/pointsub_guide'
 export ROSLISP_PACKAGE_DIRECTORIES="/home/lty/xiaoping_ws/devel/.private/pointsub_guide/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/lty/xiaoping_ws/src/pointsub_guide:$ROS_PACKAGE_PATH"

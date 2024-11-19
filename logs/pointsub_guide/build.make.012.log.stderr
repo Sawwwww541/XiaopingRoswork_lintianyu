@@ -1,0 +1,13 @@
+/usr/bin/ld: CMakeFiles/pointsub_guide.dir/src/pointsub_guide.cpp.o: in function `SubGuide::SubGuide()':
+pointsub_guide.cpp:(.text._ZN8SubGuideC2Ev[_ZN8SubGuideC5Ev]+0x260): undefined reference to `tf2_ros::Buffer::Buffer(ros::Duration, bool)'
+/usr/bin/ld: pointsub_guide.cpp:(.text._ZN8SubGuideC2Ev[_ZN8SubGuideC5Ev]+0x2f6): undefined reference to `tf2_ros::TransformListener::TransformListener(tf2::BufferCore&, bool, ros::TransportHints)'
+/usr/bin/ld: pointsub_guide.cpp:(.text._ZN8SubGuideC2Ev[_ZN8SubGuideC5Ev]+0x3ec): undefined reference to `tf2_ros::TransformListener::~TransformListener()'
+/usr/bin/ld: CMakeFiles/pointsub_guide.dir/src/pointsub_guide.cpp.o: in function `SubGuide::~SubGuide()':
+pointsub_guide.cpp:(.text._ZN8SubGuideD2Ev[_ZN8SubGuideD5Ev]+0x30): undefined reference to `tf2_ros::TransformListener::~TransformListener()'
+/usr/bin/ld: CMakeFiles/pointsub_guide.dir/src/pointsub_guide.cpp.o: in function `tf2_ros::Buffer::~Buffer()':
+pointsub_guide.cpp:(.text._ZN7tf2_ros6BufferD2Ev[_ZN7tf2_ros6BufferD5Ev]+0x13): undefined reference to `vtable for tf2_ros::Buffer'
+/usr/bin/ld: pointsub_guide.cpp:(.text._ZN7tf2_ros6BufferD2Ev[_ZN7tf2_ros6BufferD5Ev]+0x21): undefined reference to `vtable for tf2_ros::Buffer'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/pointsub_guide.dir/build.make:102：/home/lty/xiaoping_ws/devel/.private/pointsub_guide/lib/pointsub_guide/pointsub_guide] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:175：CMakeFiles/pointsub_guide.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

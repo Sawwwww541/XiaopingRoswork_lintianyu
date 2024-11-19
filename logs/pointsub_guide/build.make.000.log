@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target pointsub_guide[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/pointsub_guide.dir/src/sub_guide.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/lty/xiaoping_ws/devel/.private/pointsub_guide/lib/pointsub_guide/pointsub_guide[0m
-[100%] Built target pointsub_guide

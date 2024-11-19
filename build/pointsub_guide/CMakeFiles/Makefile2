@@ -65,9 +65,9 @@ preinstall: gtest/preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/pointsub_guide.dir/clean
+clean: CMakeFiles/actionlib_generate_messages_nodejs.dir/clean
 clean: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/clean
 clean: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/clean
-clean: CMakeFiles/actionlib_generate_messages_nodejs.dir/clean
 clean: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 clean: CMakeFiles/roscpp_generate_messages_py.dir/clean
 clean: CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
@@ -199,6 +199,33 @@ CMakeFiles/pointsub_guide.dir/clean:
 .PHONY : CMakeFiles/pointsub_guide.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/actionlib_generate_messages_nodejs.dir
+
+# All Build rule for target.
+CMakeFiles/actionlib_generate_messages_nodejs.dir/all:
+	$(MAKE) -f CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make CMakeFiles/actionlib_generate_messages_nodejs.dir/depend
+	$(MAKE) -f CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make CMakeFiles/actionlib_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lty/xiaoping_ws/build/pointsub_guide/CMakeFiles --progress-num= "Built target actionlib_generate_messages_nodejs"
+.PHONY : CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/actionlib_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lty/xiaoping_ws/build/pointsub_guide/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lty/xiaoping_ws/build/pointsub_guide/CMakeFiles 0
+.PHONY : CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+actionlib_generate_messages_nodejs: CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+
+.PHONY : actionlib_generate_messages_nodejs
+
+# clean rule for target.
+CMakeFiles/actionlib_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make CMakeFiles/actionlib_generate_messages_nodejs.dir/clean
+.PHONY : CMakeFiles/actionlib_generate_messages_nodejs.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/tf2_msgs_generate_messages_nodejs.dir
 
 # All Build rule for target.
@@ -251,33 +278,6 @@ tf2_msgs_generate_messages_lisp: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/
 CMakeFiles/tf2_msgs_generate_messages_lisp.dir/clean:
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make CMakeFiles/tf2_msgs_generate_messages_lisp.dir/clean
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_lisp.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/actionlib_generate_messages_nodejs.dir
-
-# All Build rule for target.
-CMakeFiles/actionlib_generate_messages_nodejs.dir/all:
-	$(MAKE) -f CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make CMakeFiles/actionlib_generate_messages_nodejs.dir/depend
-	$(MAKE) -f CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make CMakeFiles/actionlib_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lty/xiaoping_ws/build/pointsub_guide/CMakeFiles --progress-num= "Built target actionlib_generate_messages_nodejs"
-.PHONY : CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/actionlib_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lty/xiaoping_ws/build/pointsub_guide/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lty/xiaoping_ws/build/pointsub_guide/CMakeFiles 0
-.PHONY : CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_nodejs: CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
-
-.PHONY : actionlib_generate_messages_nodejs
-
-# clean rule for target.
-CMakeFiles/actionlib_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make CMakeFiles/actionlib_generate_messages_nodejs.dir/clean
-.PHONY : CMakeFiles/actionlib_generate_messages_nodejs.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir

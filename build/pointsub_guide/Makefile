@@ -181,6 +181,19 @@ pointsub_guide/fast:
 .PHONY : pointsub_guide/fast
 
 #=============================================================================
+# Target rules for targets named actionlib_generate_messages_nodejs
+
+# Build rule for target.
+actionlib_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 actionlib_generate_messages_nodejs
+.PHONY : actionlib_generate_messages_nodejs
+
+# fast build rule for target.
+actionlib_generate_messages_nodejs/fast:
+	$(MAKE) -f CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make CMakeFiles/actionlib_generate_messages_nodejs.dir/build
+.PHONY : actionlib_generate_messages_nodejs/fast
+
+#=============================================================================
 # Target rules for targets named tf2_msgs_generate_messages_nodejs
 
 # Build rule for target.
@@ -205,19 +218,6 @@ tf2_msgs_generate_messages_lisp: cmake_check_build_system
 tf2_msgs_generate_messages_lisp/fast:
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
 .PHONY : tf2_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named actionlib_generate_messages_nodejs
-
-# Build rule for target.
-actionlib_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 actionlib_generate_messages_nodejs
-.PHONY : actionlib_generate_messages_nodejs
-
-# fast build rule for target.
-actionlib_generate_messages_nodejs/fast:
-	$(MAKE) -f CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make CMakeFiles/actionlib_generate_messages_nodejs.dir/build
-.PHONY : actionlib_generate_messages_nodejs/fast
 
 #=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_cpp
@@ -817,32 +817,32 @@ gtest/fast:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-src/sub_guide.o: src/sub_guide.cpp.o
+src/pointsub_guide.o: src/pointsub_guide.cpp.o
 
-.PHONY : src/sub_guide.o
+.PHONY : src/pointsub_guide.o
 
 # target to build an object file
-src/sub_guide.cpp.o:
-	$(MAKE) -f CMakeFiles/pointsub_guide.dir/build.make CMakeFiles/pointsub_guide.dir/src/sub_guide.cpp.o
-.PHONY : src/sub_guide.cpp.o
+src/pointsub_guide.cpp.o:
+	$(MAKE) -f CMakeFiles/pointsub_guide.dir/build.make CMakeFiles/pointsub_guide.dir/src/pointsub_guide.cpp.o
+.PHONY : src/pointsub_guide.cpp.o
 
-src/sub_guide.i: src/sub_guide.cpp.i
+src/pointsub_guide.i: src/pointsub_guide.cpp.i
 
-.PHONY : src/sub_guide.i
+.PHONY : src/pointsub_guide.i
 
 # target to preprocess a source file
-src/sub_guide.cpp.i:
-	$(MAKE) -f CMakeFiles/pointsub_guide.dir/build.make CMakeFiles/pointsub_guide.dir/src/sub_guide.cpp.i
-.PHONY : src/sub_guide.cpp.i
+src/pointsub_guide.cpp.i:
+	$(MAKE) -f CMakeFiles/pointsub_guide.dir/build.make CMakeFiles/pointsub_guide.dir/src/pointsub_guide.cpp.i
+.PHONY : src/pointsub_guide.cpp.i
 
-src/sub_guide.s: src/sub_guide.cpp.s
+src/pointsub_guide.s: src/pointsub_guide.cpp.s
 
-.PHONY : src/sub_guide.s
+.PHONY : src/pointsub_guide.s
 
 # target to generate assembly for a file
-src/sub_guide.cpp.s:
-	$(MAKE) -f CMakeFiles/pointsub_guide.dir/build.make CMakeFiles/pointsub_guide.dir/src/sub_guide.cpp.s
-.PHONY : src/sub_guide.cpp.s
+src/pointsub_guide.cpp.s:
+	$(MAKE) -f CMakeFiles/pointsub_guide.dir/build.make CMakeFiles/pointsub_guide.dir/src/pointsub_guide.cpp.s
+.PHONY : src/pointsub_guide.cpp.s
 
 # Help Target
 help:
@@ -855,9 +855,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... edit_cache"
 	@echo "... pointsub_guide"
+	@echo "... actionlib_generate_messages_nodejs"
 	@echo "... tf2_msgs_generate_messages_nodejs"
 	@echo "... tf2_msgs_generate_messages_lisp"
-	@echo "... actionlib_generate_messages_nodejs"
 	@echo "... test"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_py"
@@ -907,9 +907,9 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... src/sub_guide.o"
-	@echo "... src/sub_guide.i"
-	@echo "... src/sub_guide.s"
+	@echo "... src/pointsub_guide.o"
+	@echo "... src/pointsub_guide.i"
+	@echo "... src/pointsub_guide.s"
 .PHONY : help
 
 

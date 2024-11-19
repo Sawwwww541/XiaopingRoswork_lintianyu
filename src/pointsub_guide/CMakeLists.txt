@@ -5,13 +5,16 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   nav_msgs
   roscpp
-  tf2_ros
+  tf2
+        std_msgs
+        tf2_ros
+        tf2_geometry_msgs
 )
 
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES pointsub_guide
-  CATKIN_DEPENDS geometry_msgs nav_msgs roscpp tf2_ros
+  CATKIN_DEPENDS geometry_msgs nav_msgs roscpp tf2 std_msgs tf2_ros tf2_geometry_msgs
 #  DEPENDS system_lib
 )
 
@@ -20,5 +23,5 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
-add_executable(pointsub_guide src/sub_guide.cpp)
+add_executable(pointsub_guide src/pointsub_guide.cpp)
 target_link_libraries(pointsub_guide ${catkin_LIBRARIES})
