@@ -1,7 +1,0 @@
-Warning: Cannot symlink from /home/lty/xiaoping_ws/devel/.private/movetest/share/movetest/cmake/movetestConfig.cmake to existing file /home/lty/xiaoping_ws/devel/share/movetest/cmake/movetestConfig.cmake
-Warning: Source hash: fe591af2fad64e5cf9cad22939db3a36
-Warning: Dest hash: c100c1f349a5cc7dfb6de981f481d42d
-Linked: (/home/lty/xiaoping_ws/devel/.private/movetest/lib/movetest/Post_cmd_vel, /home/lty/xiaoping_ws/devel/lib/movetest/Post_cmd_vel)
-Warning: Cannot symlink from /home/lty/xiaoping_ws/devel/.private/movetest/lib/pkgconfig/movetest.pc to existing file /home/lty/xiaoping_ws/devel/lib/pkgconfig/movetest.pc
-Warning: Source hash: c6784eee9a073f8cb3b652c293221978
-Warning: Dest hash: 894085114ee75d70116e8f7cf4de6072

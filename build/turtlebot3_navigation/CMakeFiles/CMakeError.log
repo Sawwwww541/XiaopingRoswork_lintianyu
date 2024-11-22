@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/lty/xiaoping_ws/build/turtlebot3_navigation/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_186c4/fast && /usr/bin/make -f CMakeFiles/cmTC_186c4.dir/build.make CMakeFiles/cmTC_186c4.dir/build
+Run Build Command(s):/usr/bin/make cmTC_a8a34/fast && /usr/bin/make -f CMakeFiles/cmTC_a8a34.dir/build.make CMakeFiles/cmTC_a8a34.dir/build
 make[1]: 进入目录“/home/lty/xiaoping_ws/build/turtlebot3_navigation/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_186c4.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_186c4.dir/src.c.o   -c /home/lty/xiaoping_ws/build/turtlebot3_navigation/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_186c4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_186c4.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_186c4.dir/src.c.o  -o cmTC_186c4 
-/usr/bin/ld: CMakeFiles/cmTC_186c4.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_a8a34.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_a8a34.dir/src.c.o   -c /home/lty/xiaoping_ws/build/turtlebot3_navigation/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a8a34
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8a34.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_a8a34.dir/src.c.o  -o cmTC_a8a34 
+/usr/bin/ld: CMakeFiles/cmTC_a8a34.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_186c4.dir/build.make:87：cmTC_186c4] 错误 1
+make[1]: *** [CMakeFiles/cmTC_a8a34.dir/build.make:87：cmTC_a8a34] 错误 1
 make[1]: 离开目录“/home/lty/xiaoping_ws/build/turtlebot3_navigation/CMakeFiles/CMakeTmp”
-make: *** [Makefile:121：cmTC_186c4/fast] 错误 2
+make: *** [Makefile:121：cmTC_a8a34/fast] 错误 2
 
 
 Source file was:
@@ -41,18 +41,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/lty/xiaoping_ws/build/turtlebot3_navigation/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_4088d/fast && /usr/bin/make -f CMakeFiles/cmTC_4088d.dir/build.make CMakeFiles/cmTC_4088d.dir/build
+Run Build Command(s):/usr/bin/make cmTC_baffe/fast && /usr/bin/make -f CMakeFiles/cmTC_baffe.dir/build.make CMakeFiles/cmTC_baffe.dir/build
 make[1]: 进入目录“/home/lty/xiaoping_ws/build/turtlebot3_navigation/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_4088d.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4088d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_4088d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4088d.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_4088d.dir/CheckFunctionExists.c.o  -o cmTC_4088d  -lpthreads 
+Building C object CMakeFiles/cmTC_baffe.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_baffe.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_baffe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baffe.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_baffe.dir/CheckFunctionExists.c.o  -o cmTC_baffe  -lpthreads 
 /usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_4088d.dir/build.make:87：cmTC_4088d] 错误 1
+make[1]: *** [CMakeFiles/cmTC_baffe.dir/build.make:87：cmTC_baffe] 错误 1
 make[1]: 离开目录“/home/lty/xiaoping_ws/build/turtlebot3_navigation/CMakeFiles/CMakeTmp”
-make: *** [Makefile:121：cmTC_4088d/fast] 错误 2
+make: *** [Makefile:121：cmTC_baffe/fast] 错误 2
 
 
 

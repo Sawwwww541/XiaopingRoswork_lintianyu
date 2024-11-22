@@ -5,5 +5,5 @@ int main(int argc, char **argv){
     Follower follower;
     follower.run();
 
-  return 0;
+    return 0;
 }

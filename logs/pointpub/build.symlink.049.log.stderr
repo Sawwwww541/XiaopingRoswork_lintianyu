@@ -1,0 +1,6 @@
+Warning: Cannot symlink from /home/lty/xiaoping_ws/devel/.private/pointpub/share/pointpub/cmake/pointpubConfig.cmake to existing file /home/lty/xiaoping_ws/devel/share/pointpub/cmake/pointpubConfig.cmake
+Warning: Source hash: b5934cf6cf4eda6fcc6d5968ae48c188
+Warning: Dest hash: 9daf80d918f5cde58e15657613d4a363
+Warning: Cannot symlink from /home/lty/xiaoping_ws/devel/.private/pointpub/lib/pkgconfig/pointpub.pc to existing file /home/lty/xiaoping_ws/devel/lib/pkgconfig/pointpub.pc
+Warning: Source hash: f535b460da718f94515884de5b1dcb80
+Warning: Dest hash: 56693836cada4d4e44dd54faa23adf9f

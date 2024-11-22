@@ -34,7 +34,7 @@ int main(int argc, char **argv){
 
   botname=argv[1];
 
-	ros::Subscriber sub=n.subscribe(botname+"/odom",1000,OdomCallback);
+	ros::Subscriber sub=n.subscribe(botname+"/odom",10,OdomCallback);
 
   ros::spin();
 

@@ -10,6 +10,6 @@
 export CMAKE_PREFIX_PATH="/home/lty/xiaoping_ws/devel/.private/turtlebot3_teleop:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/lty/xiaoping_ws/devel/.private/turtlebot3_teleop/lib:$LD_LIBRARY_PATH"
 export PWD='/home/lty/xiaoping_ws/build/turtlebot3_teleop'
-export PYTHONPATH="/home/lty/xiaoping_ws/devel/.private/turtlebot3_teleop/lib/python3/dist-packages:/home/lty/xiaoping_ws/devel/lib/python3/dist-packages:$PYTHONPATH"
+export PYTHONPATH="/home/lty/xiaoping_ws/devel/.private/turtlebot3_teleop/lib/python3/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/lty/xiaoping_ws/devel/.private/turtlebot3_teleop/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/lty/xiaoping_ws/src/turtlebot3-master/turtlebot3_teleop:$ROS_PACKAGE_PATH"

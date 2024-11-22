@@ -7,21 +7,9 @@ CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
   CMake that the project does not need compatibility with older versions.
 
 
--- The C compiler identification is GNU 9.4.0
--- The CXX compiler identification is GNU 9.4.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
 -- Using CATKIN_DEVEL_PREFIX: /home/lty/xiaoping_ws/devel
--- Using CMAKE_PREFIX_PATH: /home/lty/xiaoping_ws/devel;/home/lty/lty_ws/devel;/opt/ros/noetic
--- This workspace overlays: /home/lty/xiaoping_ws/devel;/home/lty/lty_ws/devel;/opt/ros/noetic
+-- Using CMAKE_PREFIX_PATH: /home/lty/DXfinalhomework/devel;/home/lty/xiaoping_ws/devel;/home/lty/lty_ws/devel;/opt/ros/noetic
+-- This workspace overlays: /home/lty/DXfinalhomework/devel;/home/lty/xiaoping_ws/devel;/home/lty/lty_ws/devel;/opt/ros/noetic
 CMake Warning (dev) at /opt/ros/noetic/share/catkin/cmake/python.cmake:4 (find_package):
   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
@@ -36,7 +24,6 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
 -- Using PYTHON_EXECUTABLE: /usr/bin/python3
 -- Using Debian Python package layout
--- Found PY_em: /usr/lib/python3/dist-packages/em.py
 -- Using empy: /usr/lib/python3/dist-packages/em.py
 -- Using CATKIN_ENABLE_TESTING: ON
 -- Call enable_testing()
@@ -78,13 +65,12 @@ Call Stack (most recent call first):
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
 -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10")
--- Found Threads: TRUE
 -- Using Python nosetests: /usr/bin/nosetests3
 -- catkin 0.8.10
 -- BUILD_SHARED_LIBS is on
 -- BUILD_SHARED_LIBS is on
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--- ~~  traversing 17 packages in topological order:
+-- ~~  traversing 19 packages in topological order:
 -- ~~  - teleop_twist_keyboard
 -- ~~  - turtlebot3 (metapackage)
 -- ~~  - turtlebot3_msgs
@@ -92,9 +78,11 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 -- ~~  - turtlebot3_simulations (metapackage)
 -- ~~  - dynamixel_sdk
 -- ~~  - dynamixel_sdk_examples
+-- ~~  - pointpub
 -- ~~  - movetest
 -- ~~  - multi_turtlebot3
 -- ~~  - connect_tf_tree
+-- ~~  - pointsub_guide
 -- ~~  - turtlebot3_bringup
 -- ~~  - turtlebot3_example
 -- ~~  - turtlebot3_fake
@@ -187,6 +175,17 @@ CMake Deprecation Warning at DynamixelSDK-master/ros/dynamixel_sdk_examples/CMak
 
 -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
 -- dynamixel_sdk_examples: 3 messages, 3 services
+-- +++ processing catkin package: 'pointpub'
+-- ==> add_subdirectory(pointpub)
+CMake Deprecation Warning at pointpub/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
 -- +++ processing catkin package: 'movetest'
 -- ==> add_subdirectory(movetest)
 CMake Deprecation Warning at movetest/CMakeLists.txt:1 (cmake_minimum_required):
@@ -220,6 +219,17 @@ CMake Deprecation Warning at connect_tf_tree/CMakeLists.txt:1 (cmake_minimum_req
 
 
 -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'pointsub_guide'
+-- ==> add_subdirectory(pointsub_guide)
+CMake Deprecation Warning at pointsub_guide/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
 -- +++ processing catkin package: 'turtlebot3_bringup'
 -- ==> add_subdirectory(turtlebot3-master/turtlebot3_bringup)
 CMake Deprecation Warning at turtlebot3-master/turtlebot3_bringup/CMakeLists.txt:4 (cmake_minimum_required):
@@ -242,7 +252,6 @@ CMake Deprecation Warning at turtlebot3-master/turtlebot3_example/CMakeLists.txt
 
 -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
 -- Generating .msg files for action turtlebot3_example/Turtlebot3 /home/lty/xiaoping_ws/src/turtlebot3-master/turtlebot3_example/action/Turtlebot3.action
-Generating for action Turtlebot3
 -- turtlebot3_example: 7 messages, 0 services
 -- Installing devel-space wrapper /home/lty/xiaoping_ws/src/turtlebot3-master/turtlebot3_example/nodes/turtlebot3_obstacle to /home/lty/xiaoping_ws/devel/lib/turtlebot3_example
 -- Installing devel-space wrapper /home/lty/xiaoping_ws/src/turtlebot3-master/turtlebot3_example/nodes/turtlebot3_client to /home/lty/xiaoping_ws/devel/lib/turtlebot3_example
@@ -286,21 +295,11 @@ Call Stack (most recent call first):
   turtlebot3_simulations-master/turtlebot3_gazebo/CMakeLists.txt:24 (find_package)
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
--- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1")
--- Checking for module 'bullet>=2.82'
---   Found bullet, version 2.88
--- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0")
--- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2")
--- Found assimp: /usr/include (found version "5.0.0")
 -- Found DART: /usr/include (Required is at least version "6.6") found components: dart
--- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time
 -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1")
 -- Looking for ignition-math6 -- found version 6.15.1
 -- Searching for dependencies of ignition-math6
 -- Looking for OGRE...
--- OGRE_PREFIX_WATCH changed.
--- Checking for module 'OGRE'
---   Found OGRE, version 1.9.0
 -- Found Ogre Ghadamon (1.9.0)
 -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
 -- Looking for OGRE_Paging...
@@ -322,10 +321,8 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 -- Config-file not installed for ZeroMQ -- checking for pkg-config
 -- Checking for module 'libzmq >= 4'
 --   Found libzmq, version 4.3.2
--- Found ZeroMQ: TRUE (Required is at least version "4")
 -- Checking for module 'uuid'
 --   Found uuid, version 2.34.0
--- Found UUID: TRUE
 -- Looking for ignition-msgs5 -- found version 5.10.0
 -- Searching for dependencies of ignition-msgs5
 -- Looking for ignition-math6 -- found version 6.15.1
@@ -336,23 +333,18 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 -- Searching for dependencies of ignition-common3
 -- Looking for dlfcn.h - found
 -- Looking for libdl - found
--- Found DL: TRUE
 -- Searching for <ignition-common3> component [graphics]
 -- Looking for ignition-common3-graphics -- found version 3.14.2
 -- Searching for dependencies of ignition-common3-graphics
 -- Looking for ignition-math6 -- found version 6.15.1
 -- Looking for ignition-fuel_tools4 -- found version 4.6.0
 -- Searching for dependencies of ignition-fuel_tools4
--- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")
 -- Checking for module 'jsoncpp'
 --   Found jsoncpp, version 1.7.4
--- Found JSONCPP: TRUE
 -- Checking for module 'yaml-0.1'
 --   Found yaml-0.1, version 0.2.2
--- Found YAML: TRUE
 -- Checking for module 'libzip'
 --   Found libzip, version 1.5.1
--- Found ZIP: TRUE
 -- Looking for ignition-common3 -- found version 3.14.2
 -- Looking for ignition-math6 -- found version 6.15.1
 -- Looking for ignition-msgs5 -- found version 5.10.0
@@ -387,6 +379,6 @@ CMake Deprecation Warning at turtlebot3-master/turtlebot3_description/CMakeLists
   CMake that the project does not need compatibility with older versions.
 
 
--- Configuring done (7.1s)
--- Generating done (0.1s)
+-- Configuring done (5.0s)
+-- Generating done (0.0s)
 -- Build files have been written to: /home/lty/xiaoping_ws/build

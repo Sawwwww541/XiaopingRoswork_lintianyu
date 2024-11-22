@@ -19,7 +19,7 @@ class PointPub{
       while(ros::ok()){
         nav_msgs::Path path;
         path.header.stamp=ros::Time::now();
-        path.header.frame_id="map";
+        path.header.frame_id="/map";
         path.poses=path_points;
 
         path_pub.publish(path);

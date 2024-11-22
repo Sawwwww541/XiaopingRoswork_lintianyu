@@ -9,6 +9,5 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/lty/xiaoping_ws/devel/.private/teleop_twist_keyboard:$CMAKE_PREFIX_PATH"
 export PWD='/home/lty/xiaoping_ws/build/teleop_twist_keyboard'
-export PYTHONPATH="/home/lty/xiaoping_ws/devel/lib/python3/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/lty/xiaoping_ws/devel/.private/teleop_twist_keyboard/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/lty/xiaoping_ws/src/teleop_twist_keyboard-master:$ROS_PACKAGE_PATH"

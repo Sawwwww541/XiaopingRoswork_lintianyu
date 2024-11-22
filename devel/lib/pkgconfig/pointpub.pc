@@ -1,1 +1,8 @@
-/home/lty/xiaoping_ws/devel/.private/pointpub/lib/pkgconfig/pointpub.pc
+prefix=/home/lty/xiaoping_ws/devel
+
+Name: pointpub
+Description: Description of pointpub
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs nav_msgs roscpp std_msgs

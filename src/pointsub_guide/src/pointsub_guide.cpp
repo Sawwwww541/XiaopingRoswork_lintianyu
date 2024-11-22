@@ -8,7 +8,7 @@
 
 class SubGuide{
   public:
-    SubGuide():n(),sub(n.subscribe("/path_points", 1, &SubGuide::callback, this)),pub(n.advertise<geometry_msgs::Twist>("/cmd_vel", 10)),Listener(Buffer){};
+    SubGuide():n(),sub(n.subscribe("/path_points", 10, &SubGuide::callback, this)),pub(n.advertise<geometry_msgs::Twist>("/tb3_1/cmd_vel", 1000)),Listener(Buffer){};
     void callback(const nav_msgs::PathConstPtr& msg){
       for(auto &pose : msg->poses){
         target.push(pose);
@@ -17,9 +17,9 @@ class SubGuide{
     void run(){
       ros::Rate loop_rate(10);
       while(ros::ok()){
-        geometry_msgs::PoseStamped target_pose=target.front();
+          geometry_msgs::PoseStamped target_pose=target.front();
         try{
-          geometry_msgs::TransformStamped tfs=Buffer.lookupTransform("tb3_1/base_link", target_pose.header.frame_id, ros::Time(0));
+          geometry_msgs::TransformStamped tfs=Buffer.lookupTransform("tb3_1/odom", target_pose.header.frame_id, ros::Time(0));
 
           double x=tfs.transform.translation.x+target_pose.pose.position.x;
           double y=tfs.transform.translation.y+target_pose.pose.position.y;
@@ -29,7 +29,7 @@ class SubGuide{
           geometry_msgs::Twist cmd_vel;
           if(fabs(angle)>0.1){
             cmd_vel.angular.z=angle;
-          }else if(fabs(x)+fabs(y)>1){
+          }else if(fabs(x)+fabs(y)>0.5){
             cmd_vel.angular.z=0;
             cmd_vel.linear.x=0.5*distance;
           }else{

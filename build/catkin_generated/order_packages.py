@@ -2,4 +2,4 @@
 source_root_dir = '/home/lty/xiaoping_ws/src'
 whitelisted_packages = ''.split(';') if '' != '' else []
 blacklisted_packages = ''.split(';') if '' != '' else []
-underlay_workspaces = '/home/lty/xiaoping_ws/devel;/home/lty/lty_ws/devel;/opt/ros/noetic'.split(';') if '/home/lty/xiaoping_ws/devel;/home/lty/lty_ws/devel;/opt/ros/noetic' != '' else []
+underlay_workspaces = '/home/lty/DXfinalhomework/devel;/home/lty/xiaoping_ws/devel;/home/lty/lty_ws/devel;/opt/ros/noetic'.split(';') if '/home/lty/DXfinalhomework/devel;/home/lty/xiaoping_ws/devel;/home/lty/lty_ws/devel;/opt/ros/noetic' != '' else []

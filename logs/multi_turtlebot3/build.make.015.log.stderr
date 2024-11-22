@@ -1,0 +1,8 @@
+In file included from [01m[K/home/lty/xiaoping_ws/src/multi_turtlebot3/src/follower.cpp:1[m[K:
+[01m[K/home/lty/xiaoping_ws/src/multi_turtlebot3/include/follower.h:[m[K In member function ‘[01m[Kvoid Follower::run()[m[K’:
+[01m[K/home/lty/xiaoping_ws/src/multi_turtlebot3/include/follower.h:31:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+   31 |                 [01;31m[Kelse[m[K pub.publish(stop);
+      |                 [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/follower.dir/build.make:63：CMakeFiles/follower.dir/src/follower.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:180：CMakeFiles/follower.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

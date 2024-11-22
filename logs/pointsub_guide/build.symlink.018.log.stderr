@@ -1,0 +1,6 @@
+Warning: Cannot symlink from /home/lty/xiaoping_ws/devel/.private/pointsub_guide/share/pointsub_guide/cmake/pointsub_guideConfig.cmake to existing file /home/lty/xiaoping_ws/devel/share/pointsub_guide/cmake/pointsub_guideConfig.cmake
+Warning: Source hash: 4973462bbe93f444b3199e6170eb4754
+Warning: Dest hash: d56283b0674f21d0cd678f0b65a71871
+Warning: Cannot symlink from /home/lty/xiaoping_ws/devel/.private/pointsub_guide/lib/pkgconfig/pointsub_guide.pc to existing file /home/lty/xiaoping_ws/devel/lib/pkgconfig/pointsub_guide.pc
+Warning: Source hash: 68800c15efe7470ade3ae918b7d8dc31
+Warning: Dest hash: 0d40d34fb9b4239a5900d25d06241d9d

@@ -1,9 +1,0 @@
-Warning: Cannot symlink from /home/lty/xiaoping_ws/devel/.private/catkin_tools_prebuild/local_setup.sh to existing file /home/lty/xiaoping_ws/devel/./local_setup.sh
-Warning: Source hash: 92f9d69596022208e24807d0a71864d7
-Warning: Dest hash: 99bb37edcff5014e2106670d7ac411ec
-Warning: Cannot symlink from /home/lty/xiaoping_ws/devel/.private/catkin_tools_prebuild/setup.sh to existing file /home/lty/xiaoping_ws/devel/./setup.sh
-Warning: Source hash: 5bd4e0dc7b16aee6ab709d451f63b2fb
-Warning: Dest hash: 0fa9fefca0e6fd99d2245a21ad1d8cbe
-Symlinking /home/lty/xiaoping_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
-Symlinking /home/lty/xiaoping_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
-Symlinking /home/lty/xiaoping_ws/devel/lib/pkgconfig/catkin_tools_prebuild.pc

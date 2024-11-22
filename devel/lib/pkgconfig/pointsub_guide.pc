@@ -1,1 +1,8 @@
-/home/lty/xiaoping_ws/devel/.private/pointsub_guide/lib/pkgconfig/pointsub_guide.pc
+prefix=/home/lty/xiaoping_ws/devel
+
+Name: pointsub_guide
+Description: Description of pointsub_guide
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs nav_msgs roscpp tf2 std_msgs tf2_ros tf2_geometry_msgs
